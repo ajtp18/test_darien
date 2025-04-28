@@ -15,7 +15,7 @@ class Credito(models.Model):
     
     cliente = models.ForeignKey(
         Cliente,
-        on_delete=models.PROTECT,
+        on_delete=models.CASCADE,
         related_name='creditos'
     )
     descripcion = models.TextField()
