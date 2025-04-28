@@ -84,8 +84,7 @@ python manage.py runserver
 La documentación de la API se encuentra en:
 
 ```bash
-http://localhost:8000/api/schema/swagger-ui/
-http://localhost:8000/api/schema/redoc/
+http://localhost:8000/api/docs/
 http://localhost:8000/api/schema/
 ```
 
